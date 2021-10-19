@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    justify-content: center;
+    text-align: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+.box1{
+    background-image: url("https://media.istockphoto.com/photos/abstract-background-water-picture-id537120457?b=1&k=20&m=537120457&s=170667a&w=0&h=EXrCKEhS1i9nmieL5HV0KjBCanLvFHQWNXp1CBPOSC8=");
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.bar{
+    color: darkblue;
+    background-color: darkblue;
+    font-size: 30px;
+}
+
+.box2{
+    width: 250px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: aqua;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box3{
+    width: 100%;
+    height: 200px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bar2{
+    color: darkblue;
+    background-color: darkblue;
+    font-size: 40px;
+}
+
+
+.box4{
+    width: 450px;
+    height:250px;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, p{
+    color: white;
+}
+
+.textlorem{
+    width: 700px;
+    margin: 1px;
+    display: flex;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
